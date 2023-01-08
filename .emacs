@@ -54,11 +54,11 @@
    (vector "#ffffff" "#bf616a" "#B4EB89" "#ebcb8b" "#89AAEB" "#C189EB" "#89EBCA" "#232830"))
  '(company-minimum-prefix-length 3)
  '(custom-safe-themes
-   (quote
-    ("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "7f14fad67d7ac8d0555bd5a1fd1a429ce2dd37162c4e2dc7ae501f54bad1273a" "0e121ff9bef6937edad8dfcff7d88ac9219b5b4f1570fd1702e546a80dba0832" "f0a99f53cbf7b004ba0c1760aa14fd70f2eabafe4e62a2b3cf5cabae8203113b" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "bd115791a5ac6058164193164fd1245ac9dc97207783eae036f0bfc9ad9670e0" default)))
-   '(popwin:special-display-config
-   (quote
-    (("*Miniedit Help*" :noselect t)
+   '("06f0b439b62164c6f8f84fdda32b62fb50b6d00e8b01c2208e55543a6337433a" "7f14fad67d7ac8d0555bd5a1fd1a429ce2dd37162c4e2dc7ae501f54bad1273a" "0e121ff9bef6937edad8dfcff7d88ac9219b5b4f1570fd1702e546a80dba0832" "f0a99f53cbf7b004ba0c1760aa14fd70f2eabafe4e62a2b3cf5cabae8203113b" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" "1b8d67b43ff1723960eb5e0cba512a2c7a2ad544ddb2533a90101fd1852b426e" "82d2cac368ccdec2fcc7573f24c3f79654b78bf133096f9b40c20d97ec1d8016" "bb08c73af94ee74453c90422485b29e5643b73b05e8de029a6909af6a3fb3f58" "bd115791a5ac6058164193164fd1245ac9dc97207783eae036f0bfc9ad9670e0" default))
+ '(package-selected-packages
+   '(ascii tablist s nhexl-mode json-mode helm go-mode go dash cyberpunk-theme))
+ '(popwin:special-display-config
+   '(("*Miniedit Help*" :noselect t)
      (help-mode)
      (completion-list-mode :noselect t)
      (compilation-mode :noselect t)
@@ -80,14 +80,13 @@
      (slime-connection-list-mode)
      ("helm" :regexp t)
      ("speedbar" :regexp t :noselect t)
-     ("*SPEEDBAR*" :noselect t))))
- '(speedbar-default-position (quote left))
+     ("*SPEEDBAR*" :noselect t)))
+ '(speedbar-default-position 'left)
  '(sr-speedbar-right-side nil)
  '(sr-speedbar-skip-other-window-p t)
  '(vc-annotate-background nil)
  '(vc-annotate-color-map
-   (quote
-    ((20 . "#bf616a")
+   '((20 . "#bf616a")
      (40 . "#DCA432")
      (60 . "#ebcb8b")
      (80 . "#B4EB89")
@@ -104,7 +103,7 @@
      (300 . "#bf616a")
      (320 . "#DCA432")
      (340 . "#ebcb8b")
-     (360 . "#B4EB89"))))
+     (360 . "#B4EB89")))
  '(vc-annotate-very-old-color nil))
 
 
